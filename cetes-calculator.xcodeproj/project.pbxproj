@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D08B3D92963E1A100489831 /* cetes_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B3D82963E1A100489831 /* cetes_calculatorApp.swift */; };
+		7D08B3DB2963E1A100489831 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B3DA2963E1A100489831 /* ContentView.swift */; };
+		7D08B3DD2963E1A300489831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D08B3DC2963E1A300489831 /* Assets.xcassets */; };
+		7D08B3E12963E1A300489831 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D08B3E02963E1A300489831 /* Preview Assets.xcassets */; };
+		7D08B3EB2963E1A300489831 /* cetes_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B3EA2963E1A300489831 /* cetes_calculatorTests.swift */; };
+		7D08B3F52963E1A300489831 /* cetes_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B3F42963E1A300489831 /* cetes_calculatorUITests.swift */; };
+		7D08B3F72963E1A300489831 /* cetes_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D08B3F62963E1A300489831 /* cetes_calculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D08B3E72963E1A300489831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D08B3CD2963E1A100489831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D08B3D42963E1A100489831;
+			remoteInfo = "cetes-calculator";
+		};
+		7D08B3F12963E1A300489831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D08B3CD2963E1A100489831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D08B3D42963E1A100489831;
+			remoteInfo = "cetes-calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D08B3D52963E1A100489831 /* cetes-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cetes-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D08B3D82963E1A100489831 /* cetes_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cetes_calculatorApp.swift; sourceTree = "<group>"; };
+		7D08B3DA2963E1A100489831 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D08B3DC2963E1A300489831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D08B3DE2963E1A300489831 /* cetes_calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cetes_calculator.entitlements; sourceTree = "<group>"; };
+		7D08B3E02963E1A300489831 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D08B3E62963E1A300489831 /* cetes-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cetes-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D08B3EA2963E1A300489831 /* cetes_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cetes_calculatorTests.swift; sourceTree = "<group>"; };
+		7D08B3F02963E1A300489831 /* cetes-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cetes-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D08B3F42963E1A300489831 /* cetes_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cetes_calculatorUITests.swift; sourceTree = "<group>"; };
+		7D08B3F62963E1A300489831 /* cetes_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cetes_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D08B3D22963E1A100489831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3E32963E1A300489831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3ED2963E1A300489831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D08B3CC2963E1A100489831 = {
+			isa = PBXGroup;
+			children = (
+				7D08B3D72963E1A100489831 /* cetes-calculator */,
+				7D08B3E92963E1A300489831 /* cetes-calculatorTests */,
+				7D08B3F32963E1A300489831 /* cetes-calculatorUITests */,
+				7D08B3D62963E1A100489831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D08B3D62963E1A100489831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D08B3D52963E1A100489831 /* cetes-calculator.app */,
+				7D08B3E62963E1A300489831 /* cetes-calculatorTests.xctest */,
+				7D08B3F02963E1A300489831 /* cetes-calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D08B3D72963E1A100489831 /* cetes-calculator */ = {
+			isa = PBXGroup;
+			children = (
+				7D08B3D82963E1A100489831 /* cetes_calculatorApp.swift */,
+				7D08B3DA2963E1A100489831 /* ContentView.swift */,
+				7D08B3DC2963E1A300489831 /* Assets.xcassets */,
+				7D08B3DE2963E1A300489831 /* cetes_calculator.entitlements */,
+				7D08B3DF2963E1A300489831 /* Preview Content */,
+			);
+			path = "cetes-calculator";
+			sourceTree = "<group>";
+		};
+		7D08B3DF2963E1A300489831 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D08B3E02963E1A300489831 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D08B3E92963E1A300489831 /* cetes-calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D08B3EA2963E1A300489831 /* cetes_calculatorTests.swift */,
+			);
+			path = "cetes-calculatorTests";
+			sourceTree = "<group>";
+		};
+		7D08B3F32963E1A300489831 /* cetes-calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D08B3F42963E1A300489831 /* cetes_calculatorUITests.swift */,
+				7D08B3F62963E1A300489831 /* cetes_calculatorUITestsLaunchTests.swift */,
+			);
+			path = "cetes-calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D08B3D42963E1A100489831 /* cetes-calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D08B3FA2963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculator" */;
+			buildPhases = (
+				7D08B3D12963E1A100489831 /* Sources */,
+				7D08B3D22963E1A100489831 /* Frameworks */,
+				7D08B3D32963E1A100489831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cetes-calculator";
+			productName = "cetes-calculator";
+			productReference = 7D08B3D52963E1A100489831 /* cetes-calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D08B3E52963E1A300489831 /* cetes-calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D08B3FD2963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculatorTests" */;
+			buildPhases = (
+				7D08B3E22963E1A300489831 /* Sources */,
+				7D08B3E32963E1A300489831 /* Frameworks */,
+				7D08B3E42963E1A300489831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D08B3E82963E1A300489831 /* PBXTargetDependency */,
+			);
+			name = "cetes-calculatorTests";
+			productName = "cetes-calculatorTests";
+			productReference = 7D08B3E62963E1A300489831 /* cetes-calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D08B3EF2963E1A300489831 /* cetes-calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D08B4002963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculatorUITests" */;
+			buildPhases = (
+				7D08B3EC2963E1A300489831 /* Sources */,
+				7D08B3ED2963E1A300489831 /* Frameworks */,
+				7D08B3EE2963E1A300489831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D08B3F22963E1A300489831 /* PBXTargetDependency */,
+			);
+			name = "cetes-calculatorUITests";
+			productName = "cetes-calculatorUITests";
+			productReference = 7D08B3F02963E1A300489831 /* cetes-calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D08B3CD2963E1A100489831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7D08B3D42963E1A100489831 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7D08B3E52963E1A300489831 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7D08B3D42963E1A100489831;
+					};
+					7D08B3EF2963E1A300489831 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7D08B3D42963E1A100489831;
+					};
+				};
+			};
+			buildConfigurationList = 7D08B3D02963E1A100489831 /* Build configuration list for PBXProject "cetes-calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D08B3CC2963E1A100489831;
+			productRefGroup = 7D08B3D62963E1A100489831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D08B3D42963E1A100489831 /* cetes-calculator */,
+				7D08B3E52963E1A300489831 /* cetes-calculatorTests */,
+				7D08B3EF2963E1A300489831 /* cetes-calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D08B3D32963E1A100489831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D08B3E12963E1A300489831 /* Preview Assets.xcassets in Resources */,
+				7D08B3DD2963E1A300489831 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3E42963E1A300489831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3EE2963E1A300489831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D08B3D12963E1A100489831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D08B3DB2963E1A100489831 /* ContentView.swift in Sources */,
+				7D08B3D92963E1A100489831 /* cetes_calculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3E22963E1A300489831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D08B3EB2963E1A300489831 /* cetes_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08B3EC2963E1A300489831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D08B3F52963E1A300489831 /* cetes_calculatorUITests.swift in Sources */,
+				7D08B3F72963E1A300489831 /* cetes_calculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D08B3E82963E1A300489831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D08B3D42963E1A100489831 /* cetes-calculator */;
+			targetProxy = 7D08B3E72963E1A300489831 /* PBXContainerItemProxy */;
+		};
+		7D08B3F22963E1A300489831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D08B3D42963E1A100489831 /* cetes-calculator */;
+			targetProxy = 7D08B3F12963E1A300489831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D08B3F82963E1A300489831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D08B3F92963E1A300489831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7D08B3FB2963E1A300489831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cetes-calculator/cetes_calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cetes-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D08B3FC2963E1A300489831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cetes-calculator/cetes_calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cetes-calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D08B3FE2963E1A300489831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cetes-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cetes-calculator";
+			};
+			name = Debug;
+		};
+		7D08B3FF2963E1A300489831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cetes-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cetes-calculator";
+			};
+			name = Release;
+		};
+		7D08B4012963E1A300489831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cetes-calculator";
+			};
+			name = Debug;
+		};
+		7D08B4022963E1A300489831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LAQAZ6VTF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gs.lalo.cetes-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cetes-calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D08B3D02963E1A100489831 /* Build configuration list for PBXProject "cetes-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D08B3F82963E1A300489831 /* Debug */,
+				7D08B3F92963E1A300489831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D08B3FA2963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D08B3FB2963E1A300489831 /* Debug */,
+				7D08B3FC2963E1A300489831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D08B3FD2963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D08B3FE2963E1A300489831 /* Debug */,
+				7D08B3FF2963E1A300489831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D08B4002963E1A300489831 /* Build configuration list for PBXNativeTarget "cetes-calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D08B4012963E1A300489831 /* Debug */,
+				7D08B4022963E1A300489831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D08B3CD2963E1A100489831 /* Project object */;
+}
